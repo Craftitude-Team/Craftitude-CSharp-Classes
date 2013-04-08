@@ -55,6 +55,11 @@ namespace Craftitude
         /// Indicates whether a package is platform-dependent.
         /// </summary>
         public bool PlatformDependence { get; set; }
+
+        /// <summary>
+        /// The ISO 8601-formatted timestamp of the package version's publishing.
+        /// </summary>
+        public string UpdateTimestamp { get; set; }
     }
 
 }
